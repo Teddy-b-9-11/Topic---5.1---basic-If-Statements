@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
+            string dinosaur,magicWord;
             int cats = 30, dogs = 15, people = 20;
-
+            /*
             Console.WriteLine("People: " + people + " Dogs: " + dogs + " Cats: " + cats);
             if (people < cats)
             {
@@ -40,8 +41,26 @@
             {
                 Console.WriteLine("People are dogs.");
             }
-
-
+            
+            Console.WriteLine("What famous dinosaur has three horns");
+            dinosaur = Console.ReadLine();
+            if (dinosaur.ToLower() == "triceratops")
+            {
+                Console.WriteLine("YOU ARE CORRECT! WAY TOO GO!!");
+            }
+            */
+            //Task 1
+            Console.WriteLine("Whats the magic word?");
+            magicWord = Console.ReadLine();
+            if (magicWord == "Please")
+            {
+                Console.WriteLine("You're welcome");
+            }
+            else
+            {
+                Console.WriteLine("Nope");
+                Console.WriteLine("Goodbye");
+            }
 
 
         }
